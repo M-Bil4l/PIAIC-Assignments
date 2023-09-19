@@ -1,4 +1,3 @@
-"use strict";
 // Area of Rectangle
 let widthOFRectangle = 20;
 let heightOFRectangle = 30;
@@ -38,3 +37,4 @@ else {
 let expression = ((10 + 5) * 3 - 2) / (4 % 3) - 7;
 let result = expression;
 console.log(result);
+export {};

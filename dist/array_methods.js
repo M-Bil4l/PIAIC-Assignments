@@ -1,4 +1,3 @@
-"use strict";
 // *1* Write a program that uses filter to remove all negative numbers from an array of numbers
 const arrayNumber = [33, -44, -56, -66, 32, 99];
 let positiveArray = arrayNumber.filter((num) => {
@@ -46,3 +45,4 @@ const nameArray = ["Alice", "Bob", "Charlie", "David", "Emily"];
 const nameWithExclamation = [];
 const updatedArray = nameArray.forEach(name => { nameWithExclamation.push(`${name}!`); });
 console.log(nameWithExclamation);
+export {};

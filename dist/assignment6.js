@@ -1,4 +1,3 @@
-"use strict";
 // 1-Develop a program that calculates and prints the sum of the first n even numbers using a for loop.
 function sumOfFirstNEvenNumbers(n) {
     let sum = 0;
@@ -68,3 +67,4 @@ function largestNumber(array) {
 }
 let lg = largestNumber(arr4);
 console.log(lg);
+export {};

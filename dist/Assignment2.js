@@ -1,4 +1,3 @@
-"use strict";
 // 1. Program to convert the temperature from Celsius to Fahrenheit and vice verse.
 // Temperature conversion in Celcius to Fahrenheit
 var tempInCelcius = 37;
@@ -133,4 +132,5 @@ switch (dayNumber) {
     default:
         console.log("Enter number of day from 1 to 7");
 }
+export {};
 // Write a fucntion that calculates the average of marks

@@ -1,4 +1,3 @@
-"use strict";
 // Create a function that takes an array, an index, and a value as parameters. Inside the function, use the splice method to insert the value at the specified
 // index in the array. Return the modified array.
 const array = ['Bilal', 'Usman', 'Ali', 'Asad'];
@@ -109,3 +108,4 @@ console.log(cart);
 updateQuantity(cart, "Apple", 2);
 console.log("After updating the quantity of Apple to 2:");
 console.log(cart);
+export {};

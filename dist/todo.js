@@ -1,4 +1,3 @@
-"use strict";
 // var  toDo:string[] = ["Learn Array","Learn Array Method"]
 // let updateToDo = toDo.splice(1,0,'Practice Array')
 // console.log(toDo);
@@ -21,3 +20,4 @@ while (number <= 10) {
     console.log(`2 x ${number} = ${2 * number}`);
     number++;
 }
+export {};
