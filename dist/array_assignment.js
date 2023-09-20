@@ -54,8 +54,11 @@ console.log(removeNegativeNumber(array2));
 const array3 = [44, 55, 65, 789, 23, 22, 45];
 function sumArray(array) {
     let sum = 0;
-    for (let i = 0; i < array.length; i++) {
+    let i = 0;
+    // for(let i=0;i<array.length;i++)
+    while (i < array.length) {
         sum += array[i];
+        i++;
     }
     return sum;
 }

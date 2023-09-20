@@ -76,9 +76,12 @@ const array3:number[] = [44,55,65,789,23,22,45]
 
 function sumArray(array:number[]):number {
     let sum:number = 0;
-    for(let i=0;i<array.length;i++)
+    let i:number = 0
+    // for(let i=0;i<array.length;i++)
+    while(i<array.length)
     {
         sum += array[i];
+        i++;
     }
     return sum;
 }
